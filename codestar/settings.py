@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'H4mT4m*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-neerurathour-djangoblog-lldsbskmd3j.ws.codeinstitute-ide.net','.herokuapp.com']
 
@@ -94,8 +94,8 @@ DATABASES = {
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
     "https://*.herokuapp.com",
-    "https://8000-neerurathour-djangoblog-lldsbskmd3j.ws.codeinstitute-ide.net/admin/login/?next=/admin/",
-    "https://django-heroku-blog-4e662ecc8d53.herokuapp.com/admin/login/?next=/admin/",
+    "https://8000-neerurathour-djangoblog-lldsbskmd3j.ws.codeinstitute-ide.net",
+    "https://django-heroku-blog-4e662ecc8d53.herokuapp.com",
 ]
 
 # Password validation
