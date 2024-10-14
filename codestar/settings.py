@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+
 from pathlib import Path
 import os
 import dj_database_url
@@ -84,6 +85,7 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
 
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
